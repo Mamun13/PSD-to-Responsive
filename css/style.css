@@ -1,0 +1,568 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+ol,ul{
+    list-style: none;
+}
+/*header part ends*/
+
+header #navigation{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+header #navigation nav .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all linear 0.3s;
+    padding: 0px 15px;
+    line-height: 70px;
+}
+header #navigation nav .navbar-nav .nav-item .nav-link:hover, header #navigation nav .navbar-nav .nav-item.active .nav-link{
+    color: #00e0d0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+ /*header part ends*/
+   
+/*banner part starts*/
+#banner{
+    background: url(../images/banner.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#banner .banner_overlay{
+    background: rgb(45, 27, 81,0.8);
+    padding-top: 220px;
+    padding-bottom: 207px;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#banner h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+}
+#banner h1:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #00e0d0;
+    left: 50%;
+    bottom: -27px;
+    transform: translate(-50%);
+}
+#banner p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 57px;
+    padding-bottom: 55px;
+}
+#banner a{
+    color: #00e0d0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+#banner a:hover{
+    background: #00e0d0;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+/*banner part ends*/
+
+/*about part starts*/
+#about img{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-left: 65px;
+}
+#about h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+#about p{
+    font-family: 'Roboto', sans-serif;
+    color: #716e78;
+    font-size: 14px;
+    font-weight: 400;
+}
+#about a{
+    color: #00e0d0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 15px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+#about a:hover{
+    background: #00e0d0;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+/*about part ends*/
+
+/*video part starts*/
+#video{
+    background: url(../images/video-bg.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#video .video_overlay{
+    background: rgba(45, 35, 80,.8);
+}
+#video .video_overlay i{
+    margin-top: 200px;
+    font-size: 60px;
+    color: #fff;
+}
+#video .video_overlay p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 200px;
+    padding-top: 30px;
+}
+/*video part ends*/
+
+/*expertise part starts*/
+#expertise h2{
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+#expertise h2:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #413d4b;
+    left: 50%;
+    bottom: -45px;
+    transform: translate(-50%);
+}
+#expertise p{
+    color: #6e6c72;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+/*expertise part ends*/
+
+/*expertise_icon part starts*/
+#expertise_icon a i{
+    color: #01dfd0;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+#expertise_icon h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+#expertise_icon p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+#expertise_icon .icon_part{
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    
+}
+#expertise_icon .icon_part.border_left_remove{
+    border-left: 0;
+}
+#expertise_icon .icon_part.border_right_remove{
+    border-right: 0;
+}
+#expertise_icon .icon_part.border_top_remove{
+    border-top: 0;
+}
+#expertise_icon .icon_part.border_bottom_remove{
+    border-bottom: 0;
+}
+#expertise_icon .icon_part{} 
+/*expertise_icon part ends*/
+
+#space{
+    line-height: 100px;
+    color: #fff;
+}
+
+/*team part starts*/
+#team{
+    background: url(../images/banner.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#team .team_overlay{
+    background-color: rgb(54, 46, 87,.8);
+    padding-top: 70px;
+}
+#team .team_overlay h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 15px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+#team .team_overlay h3:after{
+    position: absolute;
+    content: '';
+    background: #655c80;
+    width: 50px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+#team .team_overlay p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 67px;
+}
+#team .team_overlay figure figcaption{
+    border: 1px solid #757489;
+    padding: 15px 0px;
+}
+#team figure figcaption h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#team figure figcaption h6{
+    color: #d6d5db;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+#team figure .team_member{
+    position: relative;
+}
+#team figure .team_member .team_member_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 42, 78,0.7);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+#team figure .team_member .team_member_overlay ul{
+    float: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+#team figure .team_member .team_member_overlay ul li a i{
+    color: #fff;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+#team figure:hover .team_member_overlay{
+    opacity: 1;
+}
+#team .hiring p{
+    color: #d6d5db;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+#team .hiring a{
+    color: #00e0d0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    padding: 14px 14px;
+    display: inline-block;
+    margin-bottom: 70px;
+    transition: all linear 0.3s;
+}
+#team .hiring a:hover{
+    background: #00e0d0;
+    color: #fff;
+}
+/*team part ends*/
+
+/*work part starts*/
+#work h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase; 
+    line-height: 150px;
+    float: right;
+}
+#work p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150px;
+    float: right;
+}
+#gallery .work_gallery ul li{
+    width: 16.66%;
+    float: left;
+    border: 1px solid #ccc9c9;
+    box-sizing: border-box;
+}
+#gallery .loading{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+#gallery .loading #loadMore span{
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    color: #00e0d0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    transition: all linear 0.3s;
+}
+#gallery .loading #loadMore span:hover{
+    background: #00e0d0;
+    color: #fff;
+}
+#myList li{ 
+    display:none;
+}
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:black;
+}
+/*work part ends*/
+
+/*contact part starts*/
+#contact h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+#contact form .fields{
+    background: none;
+    width: 100%;
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    height: 45px;
+    font-size: 14px;
+    color: #999;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#contact form textarea{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #999;
+    border: 1px solid #999;
+    padding-top: 15px;
+    background: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: none;
+}
+#contact form .send{
+    background: none;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 15px 32px;
+    margin-bottom: 70px;
+    transition: all linear 0.3s;
+}
+#contact form .send:hover{
+    background: #00e0d0;
+    color: #fff;
+}
+#contact p{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 35px; 
+}
+/*contact part ends*/
+
+/*footer part starts*/
+#footer{
+    background: url(../images/footer.png)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#footer .footer_overlay{
+    background: rgb(45, 27, 81,0.8);
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+#footer img{
+    width: 128px;
+    height: 48px;
+}
+#footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #eaeaed;
+    padding-top: 26px;
+    padding-bottom: 80px;
+}
+#footer h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+#footer h6 span{
+    padding: 0px 15px;
+}
+#footer h3{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 37px;
+}
+#footer i{
+    color: #fff;
+    padding-right: 10px;
+}
+#footer span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 25px;
+}
+#footer form .fields{
+    background: none;
+    border: 1px solid #a099b3;
+    padding: 19px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+#footer form .send{
+    background: #a099b3;
+    border: 1px solid #a099b3; 
+    padding: 17px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 37px;
+    transition: all linear 0.3s;
+}
+#footer form .send:hover{
+    background: #00e0d0;
+    color: #fff;
+}
+#footer .icon a i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 12px 12px;
+    transition: all linear 0.3s;
+}
+#footer .icon a i:hover{
+    background: #00e0d0;
+}
+/*footer part ends*/
+
+
+
+
+
+
